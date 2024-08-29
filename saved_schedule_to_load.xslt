@@ -10,6 +10,7 @@
   </xsl:template>
 
   <!-- Template to match and remove RAM_Slot_Usage_Rule elements -->
-  <xsl:template match="ns:Appointment_Request | ns:Appointment_Response| ns:Appointment_Offer| ns:Plan_Route | ns:Plan_Resource | ns:Plan_Travel | ns:Allocation | ns:Allocation_Data |ns: Schedule_Event"/>
+  <xsl:template match="ns:Appointment_Request | ns:Appointment_Response| ns:Appointment_Offer| ns:Plan_Route | ns:Plan_Resource | ns:Plan_Travel | ns:Allocation | ns:Allocation_Data |ns: Schedule_Event | ns:Schedule_Exception 
+    | ns:Broadcast |  ns:Broadcast_Parameter |ns:Schedule_Exception_Data | ns:Allocation_Data | ns:Allocation"/>
 
 </xsl:stylesheet>
